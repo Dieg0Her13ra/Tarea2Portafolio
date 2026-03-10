@@ -1086,6 +1086,7 @@ button {
 .footer__social {
     /* ERROR 16: Los iconos de redes sociales del footer están apilados verticalmente
        PISTA: Falta la propiedad display que permite alinear elementos en fila */
+    display: flex;
     gap: var(--spacing-md);
 }
 
@@ -1095,6 +1096,7 @@ button {
     background: var(--color-bg-tertiary);
     /* ERROR 17: Los iconos de redes sociales son cuadrados en vez de círculos
        PISTA: Falta una propiedad de borde para hacer elementos circulares */
+    border-radius: var(--border-radius-full);
     display: flex;
     align-items: center;
     justify-content: center;
