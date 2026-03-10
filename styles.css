@@ -434,7 +434,7 @@ button {
     display: flex;
     /* ERROR 8: Los botones del hero están pegados sin espacio entre ellos
        PISTA: Falta la propiedad que define el espacio entre elementos flex */
-    gap: auto;
+    gap: var(--spacing-md);
     flex-wrap: wrap;
 }
 
