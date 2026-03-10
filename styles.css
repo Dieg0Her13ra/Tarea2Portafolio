@@ -556,7 +556,7 @@ button {
     display: grid;
     /* ERROR 10: Las cards de intereses no se muestran en 3 columnas, están apiladas
        PISTA: Falta la propiedad de CSS Grid que define las columnas */
-    grid-template-columns: auto;
+    grid-template-columns: repeat(3,1fr);
     gap: var(--spacing-xl);
     margin-bottom: var(--spacing-3xl);
 }
