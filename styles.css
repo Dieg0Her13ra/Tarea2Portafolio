@@ -102,7 +102,7 @@
     /* Z-index */
     /* ERROR 2: El header queda detrás del contenido al hacer scroll
        PISTA: El valor del z-index es muy bajo para un elemento fijo */
-    --z-fixed: 1;
+    --z-fixed: 1000;
     --z-modal: 1000;
     
     /* Header */
@@ -162,6 +162,8 @@ button {
     max-width: 1200px;
     /* ERROR 3: El contenido no está centrado en la página
        PISTA: Falta una propiedad que centra elementos de bloque horizontalmente */
+    margin-left: auto;    
+    margin-right: auto;
     padding: 0 var(--spacing-lg);
 }
 
