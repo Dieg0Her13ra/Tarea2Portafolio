@@ -102,7 +102,7 @@
     /* Z-index */
     /* ERROR 2: El header queda detrás del contenido al hacer scroll
        PISTA: El valor del z-index es muy bajo para un elemento fijo */
-    --z-fixed: 1000;
+    --z-fixed: 10;
     --z-modal: 1000;
     
     /* Header */
